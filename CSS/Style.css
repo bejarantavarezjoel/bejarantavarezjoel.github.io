@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    }
+    .nav.activate{
+    background: #fff;
+    }
+    .logo{
+    font-size: 25px;
+    color: #000;
+    font-weight: 100;
+    }
+    .menu{
+display: flex;
+}
+.menu li{
+list-style: none;
+margin: 10px;
+}
+.menu li a{
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+transition: all 0.5s ease;
+}
+.menu li a:hover{
+padding: 5px 10px;
+background: maroon;
+color: #000;
+border-radius: 15px;
+}
+.scrol{
+height: 100px;
+}
+body{
+background-color: gray;
+}
+.Box{
+    border: 0;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+  }
+  .box{
+    border: 0;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+  }
+  .sumbmit{
+    border: 0;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+  }
+  
+    body{
+      background-image: url(pngtree-ground-texture-soil-land-dirt-image_1104172.jpg);
+    }
+  form{
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
